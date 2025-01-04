@@ -1,0 +1,106 @@
+.primaryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 550px;
+    margin: 50px 500px 100px 500px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.mainScreen{
+    background-color: black;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gridRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0px 10px 0px 10px;
+    height: 69px;
+    border-radius: 20px;
+}
+
+.screenButton {
+    background-color: #4b4d48;
+    color: white;
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+.rowZero.gridRow{
+    margin: 25px 53px 25px 53px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.rowOne.gridRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 51px 0px 53px;
+}
+
+.rowFive.gridRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0px 50px 0px 52px;
+
+}
+
+
+.screenButton.AC {
+    background-color: red;
+    color: black;
+    flex-grow: 2;
+    border-radius: 10px;
+    border: px solid white;
+}
+
+
+.screenButton.Zero {
+    background-color: 4b4d48;
+    color: white;
+    flex-grow: 2;
+    border-radius: 10px;
+    border: px solid white;
+}
+
+.screenButton.orange {
+    background-color: orange;
+    color: white;
+    border: px solid white;
+}
+
+.displayText {
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 350px;
+}
